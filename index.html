@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <!-- SDK do Firebase adicionada -->
+    <script src = "https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script>
+  // Adicione as configurações da sua base de dados aqui
+  const firebaseConfig = {
+    apiKey: "AIzaSyAyrk05hPw4auI-HTIO8o4BJk2MnTJ4wPo",
+    authDomain: "tamadog-6943f.firebaseapp.com",
+    databaseURL: "https://tamadog-6943f-default-rtdb.firebaseio.com",
+    projectId: "tamadog-6943f",
+    storageBucket: "tamadog-6943f.appspot.com",
+    messagingSenderId: "324244341317",
+    appId: "1:324244341317:web:3720ce3707ffdf0892992c"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  
+    <script src="Food.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+</body></html>
